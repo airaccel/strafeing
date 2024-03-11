@@ -38,23 +38,23 @@ body {
     grid-column-start: 1;
     grid-column-end: 7;
     grid-row-start: 1;
-    grid-row-end: 6;
+    grid-row-end: 7;
 }
 .gallery__item--2 {
     grid-column-start: 7;
     grid-column-end: 13;
     grid-row-start: 1;
-    grid-row-end: 6;
+    grid-row-end: 7;
 }
 .gallery__item--3 {
     grid-column-start: 1;
     grid-column-end: 7;
-    grid-row-start: 5;
-    grid-row-end: 11;
+    grid-row-start: 7;
+    grid-row-end: 13;
 }
 .gallery__item--4 {
     grid-column-start: 7;
     grid-column-end: 13;
-    grid-row-start: 5;
-    grid-row-end: 11;
+    grid-row-start: 7;
+    grid-row-end: 13;
 }
