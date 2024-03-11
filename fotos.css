@@ -36,7 +36,7 @@ body {
 }
 .gallery__item--1 {
     grid-column-start: 1;
-    grid-column-end: 6;
+    grid-column-end: 7;
     grid-row-start: 1;
     grid-row-end: 5;
 }
@@ -45,4 +45,16 @@ body {
     grid-column-end: 13;
     grid-row-start: 1;
     grid-row-end: 5;
+}
+.gallery__item--3 {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 10;
+}
+.gallery__item--4 {
+    grid-column-start: 7;
+    grid-column-end: 13;
+    grid-row-start: 5;
+    grid-row-end: 10;
 }
