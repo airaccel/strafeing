@@ -1,7 +1,7 @@
 body {
     background: #fff;
     font-size: 0.875em;
-    font-family: monospace;
+    font-family: 'ＭＳ Ｐゴシック', 'MS PGothic', 'メイリオ', monospace;
     padding: 0;
     margin: 0;
     background: linear-gradient(rgb(251, 220, 220, 0.15), rgb(251, 220, 220, 0.15));
@@ -12,8 +12,24 @@ body {
     top: 0;
     margin: 0 auto;
     width: 870px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     }
-    
+
+  .wrapper-2 {
+    position: relative;
+    }
+
+  .main, .sidebar-right {
+    display: inline-block;
+    }
+
+  .sidebar-left, .sidebar-right {
+    width: 200px;
+    position: absolute;
+    top: 0;
+    }
+
   .sidebar-left, .sidebar-right {
     width: 175px;
     }
@@ -26,6 +42,11 @@ body {
   .sidebar-left {
     margin-left: 0px;
     }
+
+  .sidebar-right {
+    margin-right: 10px;
+    margin-left: 10px;
+    }
     
   .wrapper, .links a {
     color: #4f3d46;
@@ -35,6 +56,7 @@ body {
     border: 3px double #333;
     background: #fff;
     padding: 0;
+    margin: 10px 0px 15px 0px;
     }
     
   .header {
@@ -59,7 +81,7 @@ body {
     }
     
   .box h1, .box h2, .box h3, .box h4 {
-    background: #facbd8;
+    background: #966fc2ad;
     margin: 0;
     padding: 0.35em 0.25em 0.3em 0.25em;
     text-align: center;
