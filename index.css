@@ -110,8 +110,8 @@ body {
       }
     }
   
-  /*Mobile compatibility. Just turns it all into a vertical layout.*/  
-  @media(orientation:portrait) {
+     /*Mobile compatibility. Just turns it all into a vertical layout.*/  
+ /* @media(orientation:portrait) {
     .wrapper {
       width: 96vw;
       margin: 0 auto;
@@ -129,4 +129,4 @@ body {
       width: 92vw;
       margin: 0.25rem 1vw;
       }
-    }
+    } */
