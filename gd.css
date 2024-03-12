@@ -69,8 +69,25 @@ body {
     height: auto;
     }
     
+/*Container for top row of links.*/
   .links {
-    margin-top: 1em;
+    padding: 5px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    }
+    
+  /*Div style for individual links.*/
+  .link {
+    text-align: center;
+    display: inline-block;
+    list-style-type: none;
+    float: none;
+    font-weight: bold;
+    font-size: 1.16em;
+    padding: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: 0px solid red;
     }
     
   .title { /*suppress title, since we're putting the title as text in the header box*/
