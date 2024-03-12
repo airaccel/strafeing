@@ -1,0 +1,97 @@
+body {
+    background: #fff;
+    font-size: 0.875em;
+    font-family: 'ＭＳ Ｐゴシック', 'MS PGothic', 'メイリオ', monospace;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(rgb(251, 220, 220, 0.15), rgb(251, 220, 220, 0.15));
+    }
+    
+  .wrapper {
+    background: none;
+    top: 0;
+    margin: 0 auto;
+    width: 870px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    }
+
+  .wrapper-2 {
+    position: relative;
+    }
+
+  .main, .sidebar-right {
+    display: inline-block;
+    }
+
+  .sidebar-left, .sidebar-right {
+    width: 200px;
+    position: static;
+    top: 0;
+    }
+
+  .sidebar-left, .sidebar-right {
+    width: fit-content;
+    }
+    
+  .main {
+    width: 500px;
+    margin-left: 185px;
+    }
+    
+  .sidebar-left {
+    margin-left: 0px;
+    }
+
+  .sidebar-right {
+    margin-right: 0px;
+    margin-left: 0px;
+    }
+    
+  .wrapper, .links a {
+    color: #4f3d46;
+    }
+    
+  .box {
+    border: 3px double #333;
+    background: #fff;
+    padding: 0;
+    margin: 10px 0px 15px 0px;
+    width:fit-content;  /* specified doubly here (also in sidebar left/right) for poster fitting. work out dimensions later */
+    }
+    
+  .header {
+    border: 3px double #333;
+    background: linear-gradient(rgb(251, 220, 220, 0.75), rgb(251, 220, 220, 0.75));
+    text-align: center;
+    margin-top: 15px;
+    top: 0;
+    height: auto;
+    }
+    
+  .links {
+    margin-top: 1em;
+    }
+    
+  .title { /*suppress title, since we're putting the title as text in the header box*/
+    display: none;
+    }
+  
+  .footer {
+    height: 0;
+    }
+    
+  .box h1, .box h2, .box h3, .box h4 {
+    background: #966fc2ad;
+    margin: 0;
+    padding: 0.35em 0.25em 0.3em 0.25em;
+    text-align: center;
+    border-bottom: 3px double #333;
+    }
+    
+  .inner {
+    padding: 0.25em 1em 0.3em 1em;
+    font-size: 1.075em;
+    }
+    
+    
