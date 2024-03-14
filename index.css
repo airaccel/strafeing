@@ -112,7 +112,7 @@ body {
     }
 
   .inner marquee {
-    display: inline;
+    display: flex;
   }
 
   /* For narrow screens: slightly narrows sidebars, and makes the width
