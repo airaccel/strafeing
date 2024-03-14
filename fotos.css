@@ -12,9 +12,11 @@ html {
 }
 
 body {
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    color: #333;
-    font-weight: 300;
+    background-image: url(../strafeing/img/stars.gif);
+    background-repeat: repeat;
+    font-size: 0.875em;
+    font-family: 'ＭＳ Ｐゴシック', 'MS PGothic', 'メイリオ', monospace;
+
 }
 
 .container {

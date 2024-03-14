@@ -1,10 +1,11 @@
 body {
-    background: #fff;
-    font-size: 0.875em;
-    font-family: 'ＭＳ Ｐゴシック', 'MS PGothic', 'メイリオ', monospace;
-    padding: 0;
-    margin: 0;
-    background: linear-gradient(rgb(251, 220, 220, 0.15), rgb(251, 220, 220, 0.15));
+  background-image: url(../strafeing/img/stars4.gif);
+  background-repeat: repeat;
+  font-size: 0.875em;
+  font-family: 'ＭＳ Ｐゴシック', 'MS PGothic', 'メイリオ', monospace;
+  padding: 0;
+  margin: 0;
+
     }
     
   .wrapper {
