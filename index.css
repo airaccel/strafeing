@@ -110,8 +110,11 @@ body {
     padding: 0.25em 1em 0.3em 1em;
     font-size: 1.075em;
     }
-    
-    
+
+  .inner marquee {
+    display: inline;
+  }
+
   /* For narrow screens: slightly narrows sidebars, and makes the width
    * of the main/center div flexible (sized relative to viewport width.)
    */
