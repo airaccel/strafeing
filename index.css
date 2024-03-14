@@ -47,9 +47,18 @@ body {
     margin-right: 10px;
     margin-left: 10px;
     }
-    
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
   .bottom {
-    margin-top: auto;
+    margin-top: 250px;
+    /*width: calc(100% - 185px);
+    margin-left: 185px;*/
     }
 
   .wrapper, .links a {
@@ -76,6 +85,11 @@ body {
     margin-top: 1em;
     }
     
+  .box img {
+    max-width: 100%;
+    height: auto;
+  }
+
   .title { /*suppress title, since we're putting the title as text in the header box*/
     display: none;
     }
