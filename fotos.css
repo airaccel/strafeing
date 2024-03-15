@@ -19,6 +19,8 @@ body {
 
 }
 
+
+
 .links {
     font-size: 3em;
 }
@@ -42,7 +44,7 @@ body {
 .gallery {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(40, 3vw);
+    grid-template-rows: repeat(100, 3vw);
     grid-gap: 1.5rem;
 }
 .gallery__img {
@@ -50,6 +52,7 @@ body {
     height: 100%;
     object-fit: cover;
     display: block;
+    cursor: pointer;
 }
 .gallery__item--1 {
     grid-column-start: 1;
@@ -99,6 +102,126 @@ body {
     grid-row-start: 22;
     grid-row-end: 29;
 }
+.gallery__item--9 {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 29;
+    grid-row-end: 36;
+}
+.gallery__item--10 {
+    grid-column-start: 7;
+    grid-column-end: 13;
+    grid-row-start: 29;
+    grid-row-end: 36;
+}
+.gallery__item--11 {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 36;
+    grid-row-end: 43;
+}
+.gallery__item--12 {
+    grid-column-start: 7;
+    grid-column-end: 13;
+    grid-row-start: 36;
+    grid-row-end: 43;
+}
+.gallery__item--13 {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 43;
+    grid-row-end: 50;
+}
+.gallery__item--14 {
+    grid-column-start: 7;
+    grid-column-end: 13;
+    grid-row-start: 43;
+    grid-row-end: 50;
+}
+.gallery__item--15 {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 50;
+    grid-row-end: 57;
+}
+.gallery__item--16 {
+    grid-column-start: 7;
+    grid-column-end: 13;
+    grid-row-start: 50;
+    grid-row-end: 57;
+}
+.gallery__item--17 {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 57;
+    grid-row-end: 64;
+}
+.gallery__item--18 {
+    grid-column-start: 7;
+    grid-column-end: 13;
+    grid-row-start: 57;
+    grid-row-end: 64;
+}
+.gallery__item--19 {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 64;
+    grid-row-end: 71;
+}
+.gallery__item--20 {
+    grid-column-start: 7;
+    grid-column-end: 13;
+    grid-row-start: 64;
+    grid-row-end: 71;
+}
+.gallery__item--21 {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 71;
+    grid-row-end: 78;
+}
+.gallery__item--22 {
+    grid-column-start: 7;
+    grid-column-end: 13;
+    grid-row-start: 71;
+    grid-row-end: 78;
+}
+.gallery__item--23 {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 78;
+    grid-row-end: 85;
+}
+.gallery__item--24 {
+    grid-column-start: 7;
+    grid-column-end: 13;
+    grid-row-start: 78;
+    grid-row-end: 85;
+}
+.gallery__item--25 {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 85;
+    grid-row-end: 92;
+}
+.gallery__item--26 {
+    grid-column-start: 7;
+    grid-column-end: 13;
+    grid-row-start: 85;
+    grid-row-end: 92;
+}
+.gallery__item--27 {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 92;
+    grid-row-end: 99;
+}
+.gallery__item--28 {
+    grid-column-start: 7;
+    grid-column-end: 13;
+    grid-row-start: 92;
+    grid-row-end: 99;
+}
 
 /* CSS Modal Checkbox Prototyping */
 .modal-overlay {
@@ -111,6 +234,7 @@ body {
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.15s ease-in-out;
+    cursor: pointer;
   }
   
   .modal {
