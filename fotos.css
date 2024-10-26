@@ -222,6 +222,55 @@ body {
     grid-row-start: 92;
     grid-row-end: 99;
 }
+.gallery__item--29 {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 99;
+    grid-row-end: 106;
+}
+.gallery__item--30 {
+    grid-column-start: 7;
+    grid-column-end: 13;
+    grid-row-start: 99;
+    grid-row-end: 106;
+}
+.gallery__item--31 {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 106;
+    grid-row-end: 113;
+}
+.gallery__item--32 {
+    grid-column-start: 7;
+    grid-column-end: 13;
+    grid-row-start: 106;
+    grid-row-end: 113;
+}
+.gallery__item--33 {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 113;
+    grid-row-end: 120;
+}
+.gallery__item--34 {
+    grid-column-start: 7;
+    grid-column-end: 13;
+    grid-row-start: 113;
+    grid-row-end: 120;
+}
+.gallery__item--35 {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 120;
+    grid-row-end: 127;
+}
+.gallery__item--36 {
+    grid-column-start: 7;
+    grid-column-end: 13;
+    grid-row-start: 120;
+    grid-row-end: 127;
+}
+
 
 /* CSS Modal Checkbox Prototyping */
 .modal-overlay {
