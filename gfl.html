@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>daily free gift pack!</title>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const now = new Date();
+      const lastReset = new Date(localStorage.getItem("lastResetTime") || 0);
+
+      // Reset if past 9:00 AM UTC of the next day
+      if (!lastReset || now >= new Date(lastReset.setUTCDate(lastReset.getUTCDate() + 1), lastReset.setUTCHours(9, 0, 0))) {
+        localStorage.clear();
+        localStorage.setItem("lastResetTime", now.toISOString());
+      }
+
+      // Show "Good Job!" page if completed
+      if (localStorage.getItem("taskCompleted")) showGoodJobPage();
+
+      // Store initial content for reset
+      window.initialContent = document.body.innerHTML;
+    });
+
+    const handleTaskCompletion = (e) => {
+      e.preventDefault();
+      localStorage.setItem("taskCompleted", "true");
+      showGoodJobPage();
+    };
+
+    const showGoodJobPage = () => {
+      document.body.innerHTML = `
+        <h1>yay! :D</h1>
+        <h2>come back tomorrow!</h2>
+        <button onclick="resetSite()">click here if you lied</button>
+      `;
+    };
+
+    const resetSite = () => {
+      localStorage.clear();
+      document.body.innerHTML = window.initialContent;
+    };
+  </script>
+</head>
+<body>
+  <h1>DID YOU</h1>
+  <img src="/img/dontforget.png">
+  <form onsubmit="handleTaskCompletion(event)">
+    <input type="submit" value="yes! yes! i collected it! i did!" />
+  </form>
+</body>
+</html>
