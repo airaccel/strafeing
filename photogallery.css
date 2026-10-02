@@ -1,0 +1,101 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    background-image: url(../img/stars2.gif);
+    background-repeat: repeat;
+    font-size: 0.875em;
+    font-family: 'ＭＳ Ｐゴシック', 'MS PGothic', 'メイリオ', monospace;
+
+}
+
+.links {
+    font-size: 3em;
+}
+
+.header {
+    border: 3px double #333;
+    background: #9670c2ad;
+    text-align: center;
+    margin-top: 15px;
+    width: 130px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.gallery {
+    column-count: 4;
+    column-gap: 1rem;
+    padding: 1rem;
+}
+.gallery img {
+    width: 100%;
+    margin-bottom: 1rem;
+    display: block;
+    transition: transform 0.3 ease;
+}
+.gallery img:hover{
+    transform: scale (1.02);
+}
+@media(max-width: 768px){
+    .gallery{
+        column-count: 2;
+    }
+}
+@media(max-width: 480px){
+    .gallery{
+        column-count: 1;
+    }
+}
+
+
+/* CSS Modal Checkbox Prototyping */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.15s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .modal {
+    position: relative;
+    max-width: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50%;
+    transform: translate(0,-50%);
+    padding: 20px;
+}
+
+  .modal__img {
+    width: 100%;
+}
+
+  input:checked ~ .modal-overlay {
+    display: block;
+    opacity: 1;
+    pointer-events: auto;
+  }
