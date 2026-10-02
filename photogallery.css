@@ -53,12 +53,13 @@ body {
 .gallery img:hover{
     transform: scale (1.02);
 }
-@media(max-width: 768px){
+
+@media(max-width: 2000px){
     .gallery{
         column-count: 2;
     }
 }
-@media(max-width: 480px){
+@media(max-width: 850px){
     .gallery{
         column-count: 1;
     }
